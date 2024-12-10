@@ -1,0 +1,25 @@
+#todo-container{
+    border: 1px solid black;
+    padding: 2rem;
+}
+
+#todo-list{
+    display: flex-column;
+    justify-content: space-between;
+
+}
+
+#todo-list-item{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(183, 99, 99);
+    padding: 10px;
+
+    border: 1px solid black;
+
+}
+
+
+#todo-list-action{
+    display: flex;
+}
