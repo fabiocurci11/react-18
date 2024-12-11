@@ -7,3 +7,10 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+# Esercizio
+
+Mostra una lista di numeri o oggetti (ad esempio, libri con titolo e autore) e aggiungi due pulsanti: Ordina Crescente e Ordina Decrescente.
+Compiti:
+
+- Usa lo stato per tenere traccia dell'ordine.
+- Applica sort all'array quando l'utente clicca su un pulsante.
