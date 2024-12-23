@@ -27,8 +27,14 @@ function App() {
     setSelectedProject(project)
   }
 
+  const handleDeleteProject = (projectId) => {
+    console.log(projectId)
+    setDataForm((prevItems) => prevItems.filter((item) => item.id !== projectId));
+    setSelectedProject({})
+  }
 
 
+ 
   return (
     <>
       <div className="flex gap-4 h-screen pt-20 ">
@@ -40,10 +46,10 @@ function App() {
             handleClickAddProject={showAddProject}
           />
         </div>
-        <div className="w-3/5 bg-green-500 p-4 text-white">
+        <div className="w-3/5 bg-gray-400 p-4 pt-20 text-white">
           {showProject
             ?
-            <Project project={selectedProject}/>
+            <Project project={selectedProject} deleteProject={handleDeleteProject}/>
             :
             <AddForm sendFormData={handleFormData} />
           }
