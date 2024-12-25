@@ -13,7 +13,7 @@ Currently, two official plugins are available:
 - https://tailwindcss.com/docs/guides/vite
 
   
-# ..........Setup.Environment..............
+# Setup.Environment
 
 To setup environment:
 
